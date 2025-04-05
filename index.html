@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H.E.L.P. Ministries | Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">H.E.L.P. Ministries</h1>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#assessment">Thrive Assessment</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h2>Hope. Empowerment. Life. Purpose.</h2>
+      <p>Helping individuals thrive spiritually, emotionally, and physically.</p>
+      <a href="#assessment" class="btn">Take the Thrive Assessment</a>
+    </div>
+  </section>
+
+  <section class="about fade-in" id="about">
+    <div class="container">
+      <h3>About Us</h3>
+      <p>At H.E.L.P. Ministries, our mission is to support holistic growth across spiritual, physical, and emotional dimensions. Through personalized consultations, wellness programs, and faith-based support, we help individuals align with their God-given purpose and live thriving, empowered lives.</p>
+    </div>
+  </section>
+
+  <section class="services fade-in" id="services">
+    <div class="container">
+      <h3>Our Expertise</h3>
+      <ul class="service-list">
+        <li><strong>Spiritual Growth Consultation</strong> — Personalized faith-based guidance to nurture your spiritual journey.</li>
+        <li><strong>Health & Wellness Coaching</strong> — Holistic lifestyle strategies to build energy, resilience, and strength.</li>
+        <li><strong>Nutrition & Lifestyle Support</strong> — Practical habits for fueling your best life through healthy living.</li>
+        <li><strong>Faith-Based Accountability Programs</strong> — Structured coaching and prayerful encouragement toward your goals.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="thrive-assessment fade-in" id="assessment">
+    <div class="container">
+      <h3>Thrive Assessment</h3>
+      <p>Discover key areas for your personal growth with our holistic Thrive Assessment. We'll help you build a thriving life plan grounded in wellness, faith, and purpose.</p>
+      <a href="#" class="btn" id="start-assessment-btn">Start My Assessment</a>
+    </div>
+  </section>
+
+  <section class="promos fade-in">
+    <div class="container">
+      <h3>Special Offers</h3>
+      <div class="promo-buttons">
+        <button class="btn" id="open-promo-modal">View Promotions</button>
+        <button class="btn" id="open-guide-modal">Download Thrive Guide</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <p>&copy; 2025 H.E.L.P. Ministries. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Promo Modal -->
+  <div class="modal" id="promo-modal">
+    <div class="modal-content">
+      <span class="close-btn" id="close-promo-modal">&times;</span>
+      <h3>🎉 Limited Time Promotions</h3>
+      <ul>
+        <li>💵 Get $50 off your first month of consulting</li>
+        <li>🎯 Reach your goals? Earn a FREE bonus service</li>
+        <li>👥 Refer a friend? Get 50% off your next session</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Guide Modal -->
+  <div class="modal" id="guide-modal">
+    <div class="modal-content">
+      <span class="close-btn" id="close-guide-modal">&times;</span>
+      <h3>📚 Download the Thrive Companion Guide</h3>
+      <p>Scriptures, wellness tips, and encouragement to fuel your Thrive journey!</p>
+      <a href="#" class="btn">Download Now</a>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
